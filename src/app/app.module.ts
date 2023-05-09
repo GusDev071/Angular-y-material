@@ -93,6 +93,12 @@ import { Auto5Component } from './components/autocomplete/auto5/auto5.component'
 import { Auto6Component } from './components/autocomplete/auto6/auto6.component';
 import { Auto7Component } from './components/autocomplete/auto7/auto7.component';
 import { MatListModule } from '@angular/material/list';
+import { Tab5Component } from './components/table/tab5/tab5.component';
+import { Tab6Component } from './components/table/tab6/tab6.component';
+import { Tab7Component } from './components/table/tab7/tab7.component';
+import { Tab8Component } from './components/table/tab8/tab8.component';
+import { Tab9Component } from './components/table/tab9/tab9.component';
+import { Tab10Component } from './components/table/tab10/tab10.component';
 
 @NgModule({
   declarations: [
@@ -148,7 +154,13 @@ import { MatListModule } from '@angular/material/list';
     Auto4Component,
     Auto5Component,
     Auto6Component,
-    Auto7Component
+    Auto7Component,
+    Tab5Component,
+    Tab6Component,
+    Tab7Component,
+    Tab8Component,
+    Tab9Component,
+    Tab10Component
   ],
   imports: [
     BrowserModule,
