@@ -34,6 +34,7 @@ import { TabsComponent } from './components/tabs/tabs.component';
 import { TabComponent } from './components/tab/tab.component';
 import { TooltipComponent } from './components/tooltip/tooltip.component';
 import { TreeComponent } from './components/tree/tree.component';
+import { DatepickerComponent } from './components/datepicker/datepicker.component';
 
 
 const routes: Routes = [
@@ -46,6 +47,7 @@ const routes: Routes = [
   {path:"tarjetas", component:TarjetasComponent},
   {path:"checkbox", component:CheckboxComponent},
   {path:"chips", component:ChipsComponent},
+  {path:"datepicker", component:DatepickerComponent},
   {path:"fecha", component:FechaComponent},
   {path:"divisor", component:DivisorComponent},
   {path:"ep", component:EpComponent},

@@ -1,13 +1,46 @@
-<div class="numero">
-    <form class="example-form">
-        <mat-form-field class="example-full-width" appearance="fill">
-            <mat-label>Number</mat-label>
-            <input type="text" placeholder="Pick one" aria-label="Number" matInput [formControl]="myControl" [matAutocomplete]="auto">
-            <mat-autocomplete #auto="matAutocomplete">
-                <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
-                    {{option}}
-                </mat-option>
-            </mat-autocomplete>
-        </mat-form-field>
-    </form>
+<div>
+    <h1>UNO:</h1>
+    <div class="numero">
+        <form class="example-form">
+            <mat-form-field class="example-full-width" appearance="fill">
+                <mat-label>Number</mat-label>
+                <input type="text" placeholder="Pick one" aria-label="Number" matInput [formControl]="myControl" [matAutocomplete]="auto">
+                <mat-autocomplete #auto="matAutocomplete">
+                    <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+                        {{option}}
+                    </mat-option>
+                </mat-autocomplete>
+            </mat-form-field>
+        </form>
+    </div>
+</div>
+
+<div>
+    <h1>DOS:</h1>
+    <app-auto1></app-auto1>
+</div>
+
+<div>
+    <h1>TERCERO:</h1>
+    <app-auto3></app-auto3>
+</div>
+
+<div>
+    <h1>CUARTO:</h1>
+    <app-auto4></app-auto4>
+</div>
+
+<div>
+    <h1>QUINTO:</h1>
+    <app-auto5></app-auto5>
+</div>
+
+<div>
+    <h1>SEXTO:</h1>
+    <app-auto6></app-auto6>
+</div>
+
+<div>
+    <h1>SEPTIMO:</h1>
+    <app-auto7></app-auto7>
 </div>

@@ -84,6 +84,15 @@ import { Tree4Component } from './components/tree/tree4/tree4.component';
 import { Tab2Component } from './components/table/tab2/tab2.component';
 import { Tab3Component } from './components/table/tab3/tab3.component';
 import { Tab4Component } from './components/table/tab4/tab4.component';
+import { DatepickerComponent } from './components/datepicker/datepicker.component';
+import { MatNativeDateModule} from '@angular/material/core';
+import { Auto1Component } from './components/autocomplete/auto1/auto1.component';
+import { Auto2Component } from './components/autocomplete/auto2/auto2.component';
+import { Auto3Component } from './components/autocomplete/auto3/auto3.component';
+import { Auto4Component } from './components/autocomplete/auto4/auto4.component';
+import { Auto5Component } from './components/autocomplete/auto5/auto5.component';
+import { Auto6Component } from './components/autocomplete/auto6/auto6.component';
+import { Auto7Component } from './components/autocomplete/auto7/auto7.component';
 
 @NgModule({
   declarations: [
@@ -131,7 +140,15 @@ import { Tab4Component } from './components/table/tab4/tab4.component';
     Tree4Component,
     Tab2Component,
     Tab3Component,
-    Tab4Component
+    Tab4Component,
+    DatepickerComponent,
+    Auto1Component,
+    Auto2Component,
+    Auto3Component,
+    Auto4Component,
+    Auto5Component,
+    Auto6Component,
+    Auto7Component,
   ],
   imports: [
     BrowserModule,
@@ -173,7 +190,8 @@ import { Tab4Component } from './components/table/tab4/tab4.component';
     MatTreeModule,
     MatTableModule,
     MatTabsModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatNativeDateModule
   ],
   providers: [],
   bootstrap: [AppComponent]
