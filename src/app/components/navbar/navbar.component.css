@@ -1,0 +1,14 @@
+.spacer {
+    flex: 1 1 auto;
+}
+
+.uno {
+    margin-top: 50px;
+}
+
+.close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 16px;
+}
