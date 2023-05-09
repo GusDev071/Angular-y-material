@@ -77,6 +77,10 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import { TooltipComponent } from './components/tooltip/tooltip.component';
 import { TreeComponent } from './components/tree/tree.component';
+import { Tree1Component } from './components/tree/tree1/tree1.component';
+import { Tree2Component } from './components/tree/tree2/tree2.component';
+import { Tree3Component } from './components/tree/tree3/tree3.component';
+import { Tree4Component } from './components/tree/tree4/tree4.component';
 
 @NgModule({
   declarations: [
@@ -117,7 +121,11 @@ import { TreeComponent } from './components/tree/tree.component';
     TabsComponent,
     TabComponent,
     TooltipComponent,
-    TreeComponent
+    TreeComponent,
+    Tree1Component,
+    Tree2Component,
+    Tree3Component,
+    Tree4Component
   ],
   imports: [
     BrowserModule,
