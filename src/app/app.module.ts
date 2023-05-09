@@ -9,7 +9,6 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatMenuModule } from '@angular/material/menu';
-import { MatListModule } from '@angular/material/list';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { TarjetasComponent } from './components/tarjetas/tarjetas.component';
 import { MatCardModule } from '@angular/material/card';
@@ -93,6 +92,7 @@ import { Auto4Component } from './components/autocomplete/auto4/auto4.component'
 import { Auto5Component } from './components/autocomplete/auto5/auto5.component';
 import { Auto6Component } from './components/autocomplete/auto6/auto6.component';
 import { Auto7Component } from './components/autocomplete/auto7/auto7.component';
+import { MatListModule } from '@angular/material/list';
 
 @NgModule({
   declarations: [
@@ -148,7 +148,7 @@ import { Auto7Component } from './components/autocomplete/auto7/auto7.component'
     Auto4Component,
     Auto5Component,
     Auto6Component,
-    Auto7Component,
+    Auto7Component
   ],
   imports: [
     BrowserModule,
@@ -157,7 +157,6 @@ import { Auto7Component } from './components/autocomplete/auto7/auto7.component'
     MatToolbarModule,
     MatIconModule,
     MatSidenavModule,
-    MatListModule,
     MatMenuModule,
     MatButtonModule,
     MatCardModule,
@@ -191,7 +190,8 @@ import { Auto7Component } from './components/autocomplete/auto7/auto7.component'
     MatTableModule,
     MatTabsModule,
     MatTooltipModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
