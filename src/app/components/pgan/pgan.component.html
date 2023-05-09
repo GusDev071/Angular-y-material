@@ -42,3 +42,15 @@
         <div> getNumberOfPages: {{paginator.getNumberOfPages()}} </div>
     </div>
 </div>
+
+<div class="segundo">
+    <h1>Segundo:</h1>
+    <mat-paginator [length]="200" [pageSizeOptions]="[10, 50, 100]" aria-label="Select page">
+    </mat-paginator>    
+</div>
+
+<div class="tercero">
+    <h1>Tercero:</h1>
+    <mat-paginator [length]="100" [pageSize]="10" [pageSizeOptions]="[5, 10, 25, 100]">
+    </mat-paginator>
+</div>
