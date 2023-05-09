@@ -1,0 +1,68 @@
+<div class="titulo">
+    <h1>Snackbar</h1>
+</div>
+
+<div class="primero">
+    <h1>Primero:</h1>
+    <mat-form-field appearance="fill">
+        <mat-label>Snack bar duration (seconds)</mat-label>
+        <input type="number" [(ngModel)]="durationInSeconds" matInput>
+    </mat-form-field>
+
+    <button mat-stroked-button (click)="openSnackBar()" aria-label="Show an example snack-bar">
+        Pizza party
+      </button>
+</div>
+
+<div class="segundo">
+    <h1>Segundo:</h1>
+    <mat-form-field appearance="fill">
+        <mat-label>Snack bar duration (seconds)</mat-label>
+        <input type="number" [(ngModel)]="durationInSeconds" matInput>
+    </mat-form-field>
+
+    <button mat-stroked-button (click)="openSnackBar()" aria-label="Show an example snack-bar">
+        Pizza party
+      </button>
+</div>
+
+<div class="tercero">
+    <h1>Tercero:</h1>
+    <mat-form-field appearance="fill">
+        <mat-label>Message</mat-label>
+        <input matInput value="Disco party!" #message>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+        <mat-label>Action</mat-label>
+        <input matInput value="Dance" #action>
+    </mat-form-field>
+
+    <button mat-stroked-button (click)="openSnackBar1(message.value, action.value)">Show snack-bar</button>
+</div>
+
+<div class="cuarto">
+    <h1>Cuarto:</h1>
+    <mat-form-field appearance="fill">
+        <mat-label>Horizontal position</mat-label>
+        <mat-select [(value)]="horizontalPosition">
+            <mat-option value="start">Start</mat-option>
+            <mat-option value="center">Center</mat-option>
+            <mat-option value="end">End</mat-option>
+            <mat-option value="left">Left</mat-option>
+            <mat-option value="right">Right</mat-option>
+        </mat-select>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+        <mat-label>Vertical position</mat-label>
+        <mat-select [(value)]="verticalPosition">
+            <mat-option value="top">Top</mat-option>
+            <mat-option value="bottom">Bottom</mat-option>
+        </mat-select>
+    </mat-form-field>
+
+    <button mat-stroked-button (click)="openSnackBar2()" aria-label="Show an example snack-bar">
+        Pool party!
+      </button>
+
+</div>

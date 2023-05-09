@@ -38,6 +38,41 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
 import { FechaComponent } from './components/fecha/fecha.component';
 import {MatDialogModule} from '@angular/material/dialog';
 import { DivisorComponent } from './components/divisor/divisor.component';
+import { EpComponent } from './components/ep/ep.component';
+import {MatExpansionModule} from '@angular/material/expansion';
+import { FormucampoComponent } from './components/formucampo/formucampo.component';
+import { GrlComponent } from './components/grl/grl.component';
+import { IcnComponent } from './components/icn/icn.component';
+import { InpComponent } from './components/inp/inp.component';
+import { MatSelectModule } from '@angular/material/select';
+import {MatGridListModule} from '@angular/material/grid-list';
+import { LiComponent } from './components/li/li.component';
+import { MenuComponent } from './components/menu/menu.component';
+import { PganComponent } from './components/pgan/pgan.component';
+import { PgbComponent } from './components/pgb/pgb.component';
+import { PgsComponent } from './components/pgs/pgs.component';
+import {MatPaginatorModule} from '@angular/material/paginator';
+import {MatSliderModule} from '@angular/material/slider';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import { RbkComponent } from './components/rbk/rbk.component';
+import { RppComponent } from './components/rpp/rpp.component';
+import { SleComponent } from './components/sle/sle.component';
+import { SinvComponent } from './components/sinv/sinv.component';
+import { StComponent } from './components/st/st.component';
+import { SliderComponent } from './components/slider/slider.component';
+import { SnbComponent } from './components/snb/snb.component';
+import { ShComponent } from './components/sh/sh.component';
+import { SppComponent } from './components/spp/spp.component';
+import { TableComponent } from './components/table/table.component';
+import { TabsComponent } from './components/tabs/tabs.component';
+import { TabComponent } from './components/tab/tab.component';
+import { TooltipComponent } from './components/tooltip/tooltip.component';
+import { TreeComponent } from './components/tree/tree.component';
+import {MatRippleModule} from '@angular/material/core';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+import {MatSortModule} from '@angular/material/sort';
+import {MatStepperModule} from '@angular/material/stepper';
 
 
 @NgModule({
@@ -56,6 +91,30 @@ import { DivisorComponent } from './components/divisor/divisor.component';
     Chips3Component,
     FechaComponent,
     DivisorComponent,
+    EpComponent,
+    FormucampoComponent,
+    GrlComponent,
+    IcnComponent,
+    InpComponent,
+    LiComponent,
+    MenuComponent,
+    PganComponent,
+    PgbComponent,
+    PgsComponent,
+    RbkComponent,
+    RppComponent,
+    SleComponent,
+    SinvComponent,
+    StComponent,
+    SliderComponent,
+    SnbComponent,
+    ShComponent,
+    SppComponent,
+    TableComponent,
+    TabsComponent,
+    TabComponent,
+    TooltipComponent,
+    TreeComponent,
   ],
   imports: [
     BrowserModule,
@@ -83,6 +142,17 @@ import { DivisorComponent } from './components/divisor/divisor.component';
     MatCommonModule,
     MatDatepickerModule,
     MatDialogModule,
+    MatExpansionModule,
+    MatSelectModule,
+    MatGridListModule,
+    MatPaginatorModule,
+    MatSliderModule,
+    MatProgressSpinnerModule,
+    MatRippleModule,
+    MatSlideToggleModule,
+    MatSnackBarModule,
+    MatSortModule,
+    MatStepperModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
