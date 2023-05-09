@@ -81,6 +81,9 @@ import { Tree1Component } from './components/tree/tree1/tree1.component';
 import { Tree2Component } from './components/tree/tree2/tree2.component';
 import { Tree3Component } from './components/tree/tree3/tree3.component';
 import { Tree4Component } from './components/tree/tree4/tree4.component';
+import { Tab2Component } from './components/table/tab2/tab2.component';
+import { Tab3Component } from './components/table/tab3/tab3.component';
+import { Tab4Component } from './components/table/tab4/tab4.component';
 
 @NgModule({
   declarations: [
@@ -125,7 +128,10 @@ import { Tree4Component } from './components/tree/tree4/tree4.component';
     Tree1Component,
     Tree2Component,
     Tree3Component,
-    Tree4Component
+    Tree4Component,
+    Tab2Component,
+    Tab3Component,
+    Tab4Component
   ],
   imports: [
     BrowserModule,
