@@ -74,6 +74,8 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {MatSortModule} from '@angular/material/sort';
 import {MatStepperModule} from '@angular/material/stepper';
 import {MatTreeModule} from '@angular/material/tree';
+import {MatTableModule} from '@angular/material/table';
+import {MatTabsModule} from '@angular/material/tabs';
 
 @NgModule({
   declarations: [
@@ -153,7 +155,9 @@ import {MatTreeModule} from '@angular/material/tree';
     MatSnackBarModule,
     MatSortModule,
     MatStepperModule,
-    MatTreeModule
+    MatTreeModule,
+    MatTableModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
