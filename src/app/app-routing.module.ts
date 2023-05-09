@@ -32,10 +32,8 @@ import { SppComponent } from './components/spp/spp.component';
 import { TableComponent } from './components/table/table.component';
 import { TabsComponent } from './components/tabs/tabs.component';
 import { TabComponent } from './components/tab/tab.component';
-import { TooltipComponent } from '@angular/material/tooltip';
+import { TooltipComponent } from './components/tooltip/tooltip.component';
 import { TreeComponent } from './components/tree/tree.component';
-
-
 
 
 const routes: Routes = [

@@ -66,8 +66,6 @@ import { SppComponent } from './components/spp/spp.component';
 import { TableComponent } from './components/table/table.component';
 import { TabsComponent } from './components/tabs/tabs.component';
 import { TabComponent } from './components/tab/tab.component';
-import { TooltipComponent } from './components/tooltip/tooltip.component';
-import { TreeComponent } from './components/tree/tree.component';
 import {MatRippleModule} from '@angular/material/core';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
@@ -76,6 +74,9 @@ import {MatStepperModule} from '@angular/material/stepper';
 import {MatTreeModule} from '@angular/material/tree';
 import {MatTableModule} from '@angular/material/table';
 import {MatTabsModule} from '@angular/material/tabs';
+import {MatTooltipModule} from '@angular/material/tooltip';
+import { TooltipComponent } from './components/tooltip/tooltip.component';
+import { TreeComponent } from './components/tree/tree.component';
 
 @NgModule({
   declarations: [
@@ -116,7 +117,7 @@ import {MatTabsModule} from '@angular/material/tabs';
     TabsComponent,
     TabComponent,
     TooltipComponent,
-    TreeComponent,
+    TreeComponent
   ],
   imports: [
     BrowserModule,
@@ -157,7 +158,8 @@ import {MatTabsModule} from '@angular/material/tabs';
     MatStepperModule,
     MatTreeModule,
     MatTableModule,
-    MatTabsModule
+    MatTabsModule,
+    MatTooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]
